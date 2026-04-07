@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<title>Tic Tac Toe</title>
+
+<link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<div id="timer">Tiempo: 180</div>
+
+<div class="controls">
+
+<label>Seleccionar imágenes:</label>
+
+<select id="theme">
+<option value="classic">Clásico ❌ ⭕</option>
+<option value="animals">🐱 🐶</option>
+<option value="stars">⭐ 🔥</option>
+</select>
+
+<br><br>
+
+<label>Color de celdas:</label>
+<input type="color" id="cellColor" value="#334155">
+
+<br><br>
+
+<label>Color línea ganadora:</label>
+<input type="color" id="winColor" value="#22c55e">
+
+<br><br>
+
+<button id="restartBtn">Reiniciar juego</button>
+
+</div>
+
+<div id="board" class="board"></div>
+
+<script src="JS/functions.js"></script>
+
+</body>
+</html>
